@@ -62,3 +62,23 @@
 [09Jan2025 13:38:38.037] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr lost connection: Disconnected
 [09Jan2025 13:38:38.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr left the game
 [09Jan2025 13:38:38.100] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[09Jan2025 13:45:55.743] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel_bbr[/127.225.245.222:52903] logged in with entity id 1105 at (341.6432100128743, 79.0, 168.96756762423195)
+[09Jan2025 13:45:55.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr joined the game
+[09Jan2025 13:54:08.332] [Worker-Main-5/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Jan2025 13:55:16.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[09Jan2025 13:56:35.184] [Worker-Main-5/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Jan2025 13:57:43.392] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:pillager_outpost took 38 ms
+[09Jan2025 13:57:53.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to -863.500000, 87.000000, 1568.500000]
+[09Jan2025 13:57:53.167] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4387ms or 87 ticks behind
+[09Jan2025 13:57:54.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Intruder Alert]
+[09Jan2025 13:58:24.274] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! -10.136721234171432,0.12129684053920187,0.6546465478950267
+[09Jan2025 13:58:24.991] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16860ms or 337 ticks behind
+[09Jan2025 13:58:38.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[09Jan2025 14:02:06.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 9.991142287259777,1.0013359791121417,1.6601435703441894
+[09Jan2025 14:02:06.006] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2225ms or 44 ticks behind
+[09Jan2025 14:02:45.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [A Major Trial Of Strengh]
+[09Jan2025 14:03:41.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[09Jan2025 14:04:20.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[09Jan2025 14:05:30.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Under Lock and Key]
+[09Jan2025 14:07:56.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[09Jan2025 14:08:54.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]

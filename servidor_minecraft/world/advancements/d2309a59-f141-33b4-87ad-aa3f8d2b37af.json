@@ -7,21 +7,35 @@
   },
   "minecraft:adventure/distant_lands": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-01-09 02:15:24 +0000",
+      "clifftree:lukewarm_caves": "2025-01-09 14:02:59 +0000",
+      "minecraft:beach": "2025-01-09 13:54:04 +0000",
       "clifftree:sparse_forest": "2025-01-09 02:14:43 +0000",
       "minecraft:forest": "2025-01-08 23:57:58 +0000",
+      "minecraft:deep_ocean": "2025-01-09 13:56:33 +0000",
       "minecraft:river": "2025-01-09 02:15:57 +0000",
-      "clifftree:caves": "2025-01-09 02:19:37 +0000"
+      "minecraft:lukewarm_ocean": "2025-01-09 14:00:56 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-09 02:15:24 +0000",
+      "minecraft:ocean": "2025-01-09 13:55:37 +0000",
+      "clifftree:caves": "2025-01-09 02:19:37 +0000",
+      "minecraft:savanna": "2025-01-09 13:57:54 +0000",
+      "minecraft:plains": "2025-01-09 13:47:38 +0000",
+      "clifftree:granite_shore": "2025-01-09 13:58:02 +0000"
     },
     "done": false
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2025-01-09 13:54:04 +0000",
       "clifftree:sparse_forest": "2025-01-09 02:14:43 +0000",
       "minecraft:forest": "2025-01-08 23:57:58 +0000",
+      "minecraft:ocean": "2025-01-09 13:55:37 +0000",
       "minecraft:river": "2025-01-09 02:15:57 +0000",
+      "minecraft:lukewarm_ocean": "2025-01-09 14:00:56 +0000",
       "minecraft:birch_forest": "2025-01-09 02:15:24 +0000",
-      "clifftree:caves": "2025-01-09 02:19:37 +0000"
+      "minecraft:stony_shore": "2025-01-09 13:58:02 +0000",
+      "clifftree:caves": "2025-01-09 02:19:37 +0000",
+      "minecraft:savanna": "2025-01-09 13:57:54 +0000",
+      "minecraft:plains": "2025-01-09 13:47:38 +0000"
     },
     "done": false
   },
@@ -183,9 +197,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-09 13:51:40 +0000",
       "minecraft:skeleton": "2025-01-09 02:41:20 +0000",
+      "minecraft:breeze": "2025-01-09 14:04:09 +0000",
       "minecraft:spider": "2025-01-09 02:41:43 +0000",
       "minecraft:zombie": "2025-01-09 02:13:17 +0000",
+      "minecraft:creeper": "2025-01-09 14:00:28 +0000",
       "minecraft:zombie_villager": "2025-01-09 02:53:00 +0000"
     },
     "done": false
@@ -1164,6 +1181,133 @@
       "minecraft:woods": "2025-01-09 13:36:52 +0000"
     },
     "done": false
+  },
+  "nova_structures:adventure/find_shrine": {
+    "criteria": {
+      "shrine_combat": "2025-01-09 14:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-01-09 13:59:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-01-09 13:59:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-01-09 14:05:35 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "pillager_outpost": "2025-01-09 13:57:54 +0000",
+      "illager_camp": "2025-01-09 13:52:16 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-09 13:48:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2025-01-09 14:06:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-09 13:59:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-01-09 13:59:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-01-09 13:59:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-01-09 13:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2025-01-09 14:05:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-09 13:52:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-01-09 13:48:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-09 13:48:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-01-09 13:48:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-01-09 13:49:46 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/emerald]": "2025-01-09 13:52:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2025-01-09 14:06:14 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_pillager_outpost": {
+    "criteria": {
+      "minecraft:pillager_outpost": "2025-01-09 13:57:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template": {
+    "criteria": {
+      "has_bolt_armor_trim_smithing_template": "2025-01-09 14:05:35 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3953
 }
