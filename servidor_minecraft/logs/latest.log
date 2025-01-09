@@ -105,3 +105,7 @@
 [09Jan2025 02:47:04.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
 [09Jan2025 02:47:21.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Applied enchantment Fortune III to Samuel_bbr's item]
 [09Jan2025 02:47:26.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[09Jan2025 02:49:17.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Applied enchantment Efficiency V to Samuel_bbr's item]
+[09Jan2025 02:56:24.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[09Jan2025 02:56:28.098] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr lost connection: Disconnected
+[09Jan2025 02:56:28.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr left the game
