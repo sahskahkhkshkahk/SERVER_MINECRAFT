@@ -7,19 +7,28 @@
   },
   "minecraft:adventure/distant_lands": {
     "criteria": {
+      "minecraft:flower_forest": "2025-01-09 18:02:41 +0000",
       "clifftree:lukewarm_caves": "2025-01-09 14:02:59 +0000",
+      "minecraft:snowy_slopes": "2025-01-09 18:02:47 +0000",
       "minecraft:beach": "2025-01-09 13:54:04 +0000",
       "clifftree:sparse_forest": "2025-01-09 02:14:43 +0000",
       "minecraft:forest": "2025-01-08 23:57:58 +0000",
+      "clifftree:tropical_river": "2025-01-09 18:00:49 +0000",
       "minecraft:sparse_jungle": "2025-01-09 17:58:43 +0000",
       "minecraft:deep_ocean": "2025-01-09 13:56:33 +0000",
       "minecraft:river": "2025-01-09 02:15:57 +0000",
       "minecraft:lukewarm_ocean": "2025-01-09 14:00:56 +0000",
       "clifftree:temperate_beach": "2025-01-09 17:57:49 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-09 02:15:24 +0000",
+      "minecraft:deep_dark": "2025-01-09 18:10:42 +0000",
       "minecraft:ocean": "2025-01-09 13:55:37 +0000",
+      "minecraft:jungle": "2025-01-09 18:00:50 +0000",
+      "minecraft:cherry_grove": "2025-01-09 18:02:27 +0000",
+      "minecraft:sunflower_plains": "2025-01-09 18:05:09 +0000",
+      "minecraft:birch_forest": "2025-01-09 18:23:09 +0000",
       "clifftree:caves": "2025-01-09 02:19:37 +0000",
       "minecraft:savanna": "2025-01-09 13:57:54 +0000",
+      "minecraft:bamboo_jungle": "2025-01-09 18:00:07 +0000",
       "minecraft:plains": "2025-01-09 13:47:38 +0000",
       "clifftree:granite_shore": "2025-01-09 13:58:02 +0000"
     },
@@ -27,17 +36,24 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:flower_forest": "2025-01-09 18:02:41 +0000",
+      "minecraft:snowy_slopes": "2025-01-09 18:02:47 +0000",
       "minecraft:beach": "2025-01-09 13:54:04 +0000",
       "clifftree:sparse_forest": "2025-01-09 02:14:43 +0000",
       "minecraft:forest": "2025-01-08 23:57:58 +0000",
       "minecraft:sparse_jungle": "2025-01-09 17:58:43 +0000",
-      "minecraft:ocean": "2025-01-09 13:55:37 +0000",
       "minecraft:river": "2025-01-09 02:15:57 +0000",
       "minecraft:lukewarm_ocean": "2025-01-09 14:00:56 +0000",
-      "minecraft:birch_forest": "2025-01-09 02:15:24 +0000",
       "minecraft:stony_shore": "2025-01-09 13:58:02 +0000",
+      "minecraft:deep_dark": "2025-01-09 18:10:42 +0000",
+      "minecraft:ocean": "2025-01-09 13:55:37 +0000",
+      "minecraft:jungle": "2025-01-09 18:00:50 +0000",
+      "minecraft:cherry_grove": "2025-01-09 18:02:27 +0000",
+      "minecraft:sunflower_plains": "2025-01-09 18:05:09 +0000",
+      "minecraft:birch_forest": "2025-01-09 02:15:24 +0000",
       "clifftree:caves": "2025-01-09 02:19:37 +0000",
       "minecraft:savanna": "2025-01-09 13:57:54 +0000",
+      "minecraft:bamboo_jungle": "2025-01-09 18:00:07 +0000",
       "minecraft:plains": "2025-01-09 13:47:38 +0000"
     },
     "done": false
@@ -1363,6 +1379,54 @@
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-09 14:09:55 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2025-01-09 18:03:19 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_oak": "2025-01-09 18:03:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-01-09 18:21:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-01-09 18:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-01-09 18:12:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-01-09 18:04:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2025-01-09 18:21:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-01-09 18:22:46 +0000"
     },
     "done": true
   },
