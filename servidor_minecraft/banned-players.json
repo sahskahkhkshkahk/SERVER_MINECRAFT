@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "1d821a5e-a3f9-42e9-b234-fe79ee4da557",
+    "name": "Andres",
+    "created": "2025-01-09 02:40:50 +0000",
+    "source": "Samuel_bbr",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
