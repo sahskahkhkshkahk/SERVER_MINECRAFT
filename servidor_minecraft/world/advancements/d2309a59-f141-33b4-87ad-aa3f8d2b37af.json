@@ -7,30 +7,31 @@
   },
   "minecraft:adventure/distant_lands": {
     "criteria": {
-      "minecraft:flower_forest": "2025-01-09 18:02:41 +0000",
-      "clifftree:lukewarm_caves": "2025-01-09 14:02:59 +0000",
       "minecraft:snowy_slopes": "2025-01-09 18:02:47 +0000",
-      "minecraft:beach": "2025-01-09 13:54:04 +0000",
       "clifftree:sparse_forest": "2025-01-09 02:14:43 +0000",
       "minecraft:forest": "2025-01-08 23:57:58 +0000",
-      "clifftree:tropical_river": "2025-01-09 18:00:49 +0000",
-      "minecraft:sparse_jungle": "2025-01-09 17:58:43 +0000",
       "minecraft:deep_ocean": "2025-01-09 13:56:33 +0000",
-      "minecraft:river": "2025-01-09 02:15:57 +0000",
-      "minecraft:lukewarm_ocean": "2025-01-09 14:00:56 +0000",
       "clifftree:temperate_beach": "2025-01-09 17:57:49 +0000",
-      "minecraft:old_growth_birch_forest": "2025-01-09 02:15:24 +0000",
-      "minecraft:deep_dark": "2025-01-09 18:10:42 +0000",
       "minecraft:ocean": "2025-01-09 13:55:37 +0000",
       "minecraft:jungle": "2025-01-09 18:00:50 +0000",
       "minecraft:cherry_grove": "2025-01-09 18:02:27 +0000",
       "minecraft:sunflower_plains": "2025-01-09 18:05:09 +0000",
       "minecraft:birch_forest": "2025-01-09 18:23:09 +0000",
       "clifftree:caves": "2025-01-09 02:19:37 +0000",
-      "minecraft:savanna": "2025-01-09 13:57:54 +0000",
       "minecraft:bamboo_jungle": "2025-01-09 18:00:07 +0000",
-      "minecraft:plains": "2025-01-09 13:47:38 +0000",
-      "clifftree:granite_shore": "2025-01-09 13:58:02 +0000"
+      "clifftree:granite_shore": "2025-01-09 13:58:02 +0000",
+      "minecraft:flower_forest": "2025-01-09 18:02:41 +0000",
+      "clifftree:lukewarm_caves": "2025-01-09 14:02:59 +0000",
+      "minecraft:beach": "2025-01-09 13:54:04 +0000",
+      "clifftree:tropical_river": "2025-01-09 18:00:49 +0000",
+      "minecraft:sparse_jungle": "2025-01-09 17:58:43 +0000",
+      "minecraft:river": "2025-01-09 02:15:57 +0000",
+      "minecraft:lukewarm_ocean": "2025-01-09 14:00:56 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-09 02:15:24 +0000",
+      "minecraft:deep_dark": "2025-01-09 18:10:42 +0000",
+      "minecraft:grove": "2025-01-10 01:44:30 +0000",
+      "minecraft:savanna": "2025-01-09 13:57:54 +0000",
+      "minecraft:plains": "2025-01-09 13:47:38 +0000"
     },
     "done": false
   },
@@ -50,6 +51,7 @@
       "minecraft:jungle": "2025-01-09 18:00:50 +0000",
       "minecraft:cherry_grove": "2025-01-09 18:02:27 +0000",
       "minecraft:sunflower_plains": "2025-01-09 18:05:09 +0000",
+      "minecraft:grove": "2025-01-10 01:44:30 +0000",
       "minecraft:birch_forest": "2025-01-09 02:15:24 +0000",
       "clifftree:caves": "2025-01-09 02:19:37 +0000",
       "minecraft:savanna": "2025-01-09 13:57:54 +0000",
@@ -236,6 +238,7 @@
     "criteria": {
       "mutton": "2025-01-09 02:15:38 +0000",
       "rotten_flesh": "2025-01-09 02:16:30 +0000",
+      "enchanted_golden_apple": "2025-01-10 01:46:14 +0000",
       "porkchop": "2025-01-09 02:13:33 +0000",
       "golden_carrot": "2025-01-09 02:37:53 +0000"
     },
@@ -1394,15 +1397,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+  "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "has_smithing_trim_template": "2025-01-09 18:21:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_leggings": "2025-01-09 18:17:50 +0000"
+      "slept_in_bed": "2025-01-09 18:04:18 +0000"
     },
     "done": true
   },
@@ -1412,9 +1409,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "slept_in_bed": "2025-01-09 18:04:18 +0000"
+      "diamond_leggings": "2025-01-09 18:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-01-09 18:21:47 +0000"
     },
     "done": true
   },
@@ -1427,6 +1430,30 @@
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2025-01-09 18:22:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-01-10 01:44:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-01-10 01:45:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-10 01:44:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-01-10 01:44:43 +0000"
     },
     "done": true
   },

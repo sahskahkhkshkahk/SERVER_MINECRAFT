@@ -1,94 +1,57 @@
-[09Jan2025 17:53:27.645] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[09Jan2025 17:53:27.648] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04
-[09Jan2025 17:53:27.650] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[09Jan2025 17:53:27.927] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[09Jan2025 17:53:28.077] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[09Jan2025 17:53:28.259] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/SERVER_MINECRAFT/servidor_minecraft/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
-[09Jan2025 17:53:28.777] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[09Jan2025 17:53:30.167] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[09Jan2025 17:53:30.189] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[09Jan2025 17:53:30.249] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Jan2025 17:53:30.251] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Jan2025 17:53:31.141] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[09Jan2025 17:53:31.384] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[09Jan2025 17:53:40.639] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[09Jan2025 17:53:40.640] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[09Jan2025 17:53:40.658] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[09Jan2025 17:53:40.743] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
-[09Jan2025 17:53:41.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[09Jan2025 17:53:42.969] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.4.4 Target: null
-[09Jan2025 17:53:42.969] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09Jan2025 17:53:43.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.33 Target: 51.0.33
-[09Jan2025 17:53:43.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Starting version check at https://api.modrinth.com/updates/59ypHk8x/forge_updates.json
-[09Jan2025 17:53:43.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Found status: OUTDATED Current: 1.7 Target: 1.7+mod
-[09Jan2025 17:53:43.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
-[09Jan2025 17:53:43.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.6 Target: 2.1.6
-[09Jan2025 17:53:43.588] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[09Jan2025 17:53:43.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21-6.0.0-beta.27 Target: 1.21-6.0.0-beta.27
-[09Jan2025 17:53:44.892] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: resource-pack-id missing, using default of 7f2fe692-0121-3f4f-8f74-abc7d8cbc069
-[09Jan2025 17:53:44.916] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09Jan2025 17:53:48.724] [Worker-Main-1/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
-[09Jan2025 17:53:49.837] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1339 recipes
-[09Jan2025 17:53:50.241] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[09Jan2025 17:53:50.243] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1490 advancements
-[09Jan2025 17:53:51.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[09Jan2025 17:53:51.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[09Jan2025 17:53:51.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[09Jan2025 17:53:51.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09Jan2025 17:53:51.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[09Jan2025 17:53:51.435] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[09Jan2025 17:53:51.503] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09Jan2025 17:53:51.504] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[09Jan2025 17:53:51.504] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09Jan2025 17:53:51.505] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[09Jan2025 17:53:51.534] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[09Jan2025 17:53:51.592] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[09Jan2025 17:54:07.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09Jan2025 17:54:08.717] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jan2025 17:54:08.720] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jan2025 17:54:08.945] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 992 ms
-[09Jan2025 17:54:08.946] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.425s)! For help, type "help"
-[09Jan2025 17:54:08.961] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09Jan2025 17:54:08.964] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
-[09Jan2025 17:54:08.966] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeClientHooks@4c063cd3 for service interface journeymap.api.services.ClientPlatformService
-[09Jan2025 17:54:08.968] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeHooks@19478ef3 for service interface journeymap.api.services.CommonPlatformService
-[09Jan2025 17:54:23.520] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel_bbr[/127.225.245.222:55523] logged in with entity id 20 at (-635.7258957382113, 57.0, 1732.342293579508)
-[09Jan2025 17:54:23.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr joined the game
-[09Jan2025 17:54:25.481] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2146ms or 42 ticks behind
-[09Jan2025 17:55:48.015] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
-[09Jan2025 17:57:08.988] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
-[09Jan2025 17:57:54.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 5.387238121764028,2.984943566848713,8.168789805514734
-[09Jan2025 17:58:08.305] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 1.682871408342777,0.0,10.064538183622517
-[09Jan2025 17:58:13.264] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
-[09Jan2025 17:58:28.600] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
-[09Jan2025 17:59:15.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[09Jan2025 18:00:10.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[09Jan2025 18:00:26.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 1.5973668084141934,-3.7492699271767123,10.287521213701893
-[09Jan2025 18:00:58.169] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
-[09Jan2025 18:01:22.767] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=217, y=48, z=159}
-[09Jan2025 18:02:16.659] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
-[09Jan2025 18:02:42.506] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
-[09Jan2025 18:03:17.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[09Jan2025 18:03:19.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Safe Haven]
-[09Jan2025 18:04:18.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Sweet Dreams]
-[09Jan2025 18:09:48.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[09Jan2025 18:10:12.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[09Jan2025 18:11:07.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Spectator Mode]
-[09Jan2025 18:11:19.738] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
-[09Jan2025 18:11:22.515] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
-[09Jan2025 18:11:25.912] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 10.101752357166816,0.02054842405198798,4.0136110588910014
-[09Jan2025 18:11:32.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[09Jan2025 18:11:50.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Applied enchantment Mending to Samuel_bbr's item]
-[09Jan2025 18:12:12.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Sneak 100]
-[09Jan2025 18:14:04.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Spectator Mode]
-[09Jan2025 18:15:03.564] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:ancient_city took 0 ms
-[09Jan2025 18:15:13.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to 480.500000, -19.919627, 4048.500000]
-[09Jan2025 18:15:13.419] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4633ms or 92 ticks behind
-[09Jan2025 18:15:29.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[09Jan2025 18:15:37.270] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=217, y=48, z=159}
-[09Jan2025 18:16:00.614] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=216, y=47, z=211}
-[09Jan2025 18:16:36.835] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=217, y=48, z=159}
-[09Jan2025 18:17:50.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Cover Me with Diamonds]
-[09Jan2025 18:23:30.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[09Jan2025 18:23:32.990] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr lost connection: Disconnected
-[09Jan2025 18:23:32.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr left the game
+[10Jan2025 01:38:57.691] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[10Jan2025 01:38:57.695] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04
+[10Jan2025 01:38:57.697] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[10Jan2025 01:38:57.917] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[10Jan2025 01:38:58.156] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[10Jan2025 01:38:58.355] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/SERVER_MINECRAFT/servidor_minecraft/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[10Jan2025 01:38:58.758] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[10Jan2025 01:39:00.155] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Jan2025 01:39:00.216] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[10Jan2025 01:39:00.309] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jan2025 01:39:00.310] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jan2025 01:39:01.124] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[10Jan2025 01:39:01.333] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[10Jan2025 01:39:10.408] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[10Jan2025 01:39:10.409] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[10Jan2025 01:39:10.458] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[10Jan2025 01:39:10.514] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
+[10Jan2025 01:39:11.770] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[10Jan2025 01:39:12.565] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.4.4 Target: null
+[10Jan2025 01:39:12.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Jan2025 01:39:12.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.33 Target: 51.0.33
+[10Jan2025 01:39:12.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Starting version check at https://api.modrinth.com/updates/59ypHk8x/forge_updates.json
+[10Jan2025 01:39:12.857] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Found status: OUTDATED Current: 1.7 Target: 1.7+mod
+[10Jan2025 01:39:12.857] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[10Jan2025 01:39:12.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.6 Target: 2.1.6
+[10Jan2025 01:39:12.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[10Jan2025 01:39:13.358] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21-6.0.0-beta.27 Target: 1.21-6.0.0-beta.27
+[10Jan2025 01:39:14.190] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: resource-pack-id missing, using default of 7f2fe692-0121-3f4f-8f74-abc7d8cbc069
+[10Jan2025 01:39:14.212] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10Jan2025 01:39:17.982] [Worker-Main-1/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
+[10Jan2025 01:39:18.849] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1339 recipes
+[10Jan2025 01:39:19.205] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[10Jan2025 01:39:19.206] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1490 advancements
+[10Jan2025 01:39:19.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[10Jan2025 01:39:19.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Jan2025 01:39:19.878] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[10Jan2025 01:39:19.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Jan2025 01:39:20.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Jan2025 01:39:20.105] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[10Jan2025 01:39:20.164] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10Jan2025 01:39:20.165] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[10Jan2025 01:39:20.165] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10Jan2025 01:39:20.166] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[10Jan2025 01:39:20.194] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Jan2025 01:39:20.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10Jan2025 01:39:32.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Jan2025 01:39:33.402] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jan2025 01:39:33.403] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jan2025 01:39:33.636] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 918 ms
+[10Jan2025 01:39:33.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.454s)! For help, type "help"
+[10Jan2025 01:39:33.663] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Jan2025 01:39:33.666] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[10Jan2025 01:39:33.673] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeClientHooks@24697060 for service interface journeymap.api.services.ClientPlatformService
+[10Jan2025 01:39:33.675] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeHooks@13eb87ad for service interface journeymap.api.services.CommonPlatformService
+[10Jan2025 01:41:20.257] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel_bbr[/127.225.245.222:42555] logged in with entity id 20 at (348.1818459092229, 125.0, 4129.652342668071)
+[10Jan2025 01:41:20.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr joined the game
+[10Jan2025 01:41:22.497] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2401ms or 48 ticks behind
