@@ -841,3 +841,23 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Jan2025 01:51:55.531] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/entity/trialspawner/TrialSpawner
 [10Jan2025 01:54:36.194] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Jan2025 01:54:36.218] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Jan2025 01:59:27.068] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:village_plains took 827 ms
+[10Jan2025 01:59:34.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to -1055.500000, 67.000000, 4624.500000]
+[10Jan2025 01:59:34.467] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3471ms or 69 ticks behind
+[10Jan2025 01:59:39.649] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Jan2025 01:59:39.657] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Jan2025 02:00:29.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Ice Bucket Challenge]
+[10Jan2025 02:00:58.862] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1063, y=65, z=4614}) doesn't have enough leaves around top most log
+[10Jan2025 02:00:59.554] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1063, y=64, z=4614}) doesn't have enough leaves around top most log
+[10Jan2025 02:01:00.253] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1063, y=63, z=4614}) doesn't have enough leaves around top most log
+[10Jan2025 02:04:39.681] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Jan2025 02:04:39.697] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Jan2025 02:04:49.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Who is Cutting Onions?]
+[10Jan2025 02:04:49.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Gave 20 [Crying Obsidian] to Samuel_bbr]
+[10Jan2025 02:05:11.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[10Jan2025 02:05:23.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[10Jan2025 02:05:53.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[10Jan2025 02:06:01.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[10Jan2025 02:06:17.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [We Need to Go Deeper]
+[10Jan2025 02:06:33.906] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22160ms or 443 ticks behind
+[10Jan2025 02:08:20.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]

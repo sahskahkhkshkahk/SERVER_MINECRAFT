@@ -55,3 +55,16 @@
 [10Jan2025 01:41:20.257] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel_bbr[/127.225.245.222:42555] logged in with entity id 20 at (348.1818459092229, 125.0, 4129.652342668071)
 [10Jan2025 01:41:20.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr joined the game
 [10Jan2025 01:41:22.497] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2401ms or 48 ticks behind
+[10Jan2025 01:59:27.068] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:village_plains took 827 ms
+[10Jan2025 01:59:34.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to -1055.500000, 67.000000, 4624.500000]
+[10Jan2025 01:59:34.467] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3471ms or 69 ticks behind
+[10Jan2025 02:00:29.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Ice Bucket Challenge]
+[10Jan2025 02:04:49.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Who is Cutting Onions?]
+[10Jan2025 02:04:49.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Gave 20 [Crying Obsidian] to Samuel_bbr]
+[10Jan2025 02:05:11.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[10Jan2025 02:05:23.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[10Jan2025 02:05:53.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[10Jan2025 02:06:01.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[10Jan2025 02:06:17.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [We Need to Go Deeper]
+[10Jan2025 02:06:33.906] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22160ms or 443 ticks behind
+[10Jan2025 02:08:20.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
