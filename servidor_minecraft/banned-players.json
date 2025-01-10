@@ -6,5 +6,13 @@
     "source": "Samuel_bbr",
     "expires": "forever",
     "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "8ad91cd2-bdc3-33ad-9d45-26cdc59313a2",
+    "name": "andres15mx",
+    "created": "2025-01-10 02:17:32 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
   }
 ]

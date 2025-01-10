@@ -68,3 +68,14 @@
 [10Jan2025 02:06:17.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [We Need to Go Deeper]
 [10Jan2025 02:06:33.906] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22160ms or 443 ticks behind
 [10Jan2025 02:08:20.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[10Jan2025 02:10:35.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[10Jan2025 02:10:44.302] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr lost connection: Disconnected
+[10Jan2025 02:10:44.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr left the game
+[10Jan2025 02:14:27.239] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel_bbr[/127.225.245.222:57609] logged in with entity id 8267 at (-1071.300000011921, 64.0, 4627.589736410338)
+[10Jan2025 02:14:27.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr joined the game
+[10Jan2025 02:16:09.518] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2721ms or 54 ticks behind
+[10Jan2025 02:16:34.405] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr lost connection: Disconnected
+[10Jan2025 02:16:34.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr left the game
+[10Jan2025 02:17:32.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Banned andres15mx: Banned by an operator.
+[10Jan2025 02:17:49.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[10Jan2025 02:17:49.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: unban andres15mx<--[HERE]
