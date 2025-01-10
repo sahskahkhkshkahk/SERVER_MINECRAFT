@@ -1786,6 +1786,12 @@
     },
     "done": true
   },
+  "advancednetherite:nether/netherite_diamond_armor": {
+    "criteria": {
+      "netherite_diamond_armor": "2025-01-10 05:04:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2025-01-10 04:47:29 +0000"
