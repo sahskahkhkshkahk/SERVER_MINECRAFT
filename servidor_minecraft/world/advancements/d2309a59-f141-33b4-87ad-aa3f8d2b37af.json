@@ -221,11 +221,13 @@
       "minecraft:pillager": "2025-01-09 13:51:40 +0000",
       "minecraft:blaze": "2025-01-10 04:30:54 +0000",
       "minecraft:skeleton": "2025-01-09 02:41:20 +0000",
-      "minecraft:breeze": "2025-01-09 14:04:09 +0000",
       "minecraft:zombified_piglin": "2025-01-10 03:43:17 +0000",
+      "minecraft:wither_skeleton": "2025-01-10 02:08:40 +0000",
+      "minecraft:piglin": "2025-01-10 04:49:36 +0000",
+      "minecraft:breeze": "2025-01-09 14:04:09 +0000",
       "minecraft:enderman": "2025-01-10 04:17:13 +0000",
       "minecraft:spider": "2025-01-09 02:41:43 +0000",
-      "minecraft:wither_skeleton": "2025-01-10 02:08:40 +0000",
+      "minecraft:piglin_brute": "2025-01-10 04:48:58 +0000",
       "minecraft:zombie": "2025-01-09 02:13:17 +0000",
       "minecraft:creeper": "2025-01-09 14:00:28 +0000",
       "minecraft:zombie_villager": "2025-01-09 02:53:00 +0000"
@@ -1586,6 +1588,7 @@
   },
   "nova_structures:nether/find_nether_skeleton": {
     "criteria": {
+      "nether_port": "2025-01-10 04:38:11 +0000",
       "fortress": "2025-01-10 04:27:38 +0000",
       "skeleton_camp_waste": "2025-01-10 02:08:28 +0000"
     },
@@ -1633,9 +1636,93 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-01-10 04:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-01-10 04:39:02 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_port": {
+    "criteria": {
+      "nova_structures:nether_port": "2025-01-10 04:38:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2025-01-10 04:31:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-01-10 04:39:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-01-10 04:39:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-01-10 04:39:02 +0000"
     },
     "done": true
   },
@@ -1645,9 +1732,33 @@
     },
     "done": true
   },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-01-10 04:47:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-01-10 04:39:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-01-10 04:39:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
       "has_quartz": "2025-01-10 04:20:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
     },
     "done": true
   },
@@ -1657,9 +1768,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-01-10 04:39:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/find_fortress": {
     "criteria": {
       "fortress": "2025-01-10 04:27:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
     },
     "done": true
   },
@@ -1684,6 +1807,12 @@
   "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
       "has_warped_fungus": "2025-01-10 04:17:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
     },
     "done": true
   },
