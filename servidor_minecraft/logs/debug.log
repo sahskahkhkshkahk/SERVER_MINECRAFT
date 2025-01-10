@@ -884,3 +884,14 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Jan2025 03:53:58.339] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Jan2025 03:53:58.347] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [10Jan2025 03:54:25.959] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/entity/trialspawner/TrialSpawner
+[10Jan2025 03:58:58.219] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Jan2025 03:58:58.231] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Jan2025 03:59:48.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> me perdi
+[10Jan2025 04:01:18.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Zombie
+[10Jan2025 04:02:41.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> ven a domir
+[10Jan2025 04:02:57.324] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[10Jan2025 04:03:58.261] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Jan2025 04:03:58.268] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Jan2025 04:06:09.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was blown up by Creeper
+[10Jan2025 04:07:19.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> que paso bb
+[10Jan2025 04:07:40.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> nada
