@@ -915,3 +915,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Jan2025 02:17:32.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Banned andres15mx: Banned by an operator.
 [10Jan2025 02:17:49.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [10Jan2025 02:17:49.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: unban andres15mx<--[HERE]
+[10Jan2025 02:20:04.424] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Jan2025 02:20:04.429] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Jan2025 02:25:04.419] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Jan2025 02:25:04.422] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
