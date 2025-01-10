@@ -190,3 +190,27 @@
 [10Jan2025 05:14:33.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Gave 1 [Stick] to Samuel_bbr]
 [10Jan2025 05:17:14.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Made Domisainter a server operator]
 [10Jan2025 05:17:51.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Gave 1 [Stick] to Samuel_bbr]
+[10Jan2025 05:19:23.074] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
+[10Jan2025 05:20:30.773] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=48, z=214}
+[10Jan2025 05:20:30.774] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=48, z=214}
+[10Jan2025 05:20:30.775] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=49, z=214}
+[10Jan2025 05:20:30.775] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=48, z=214}
+[10Jan2025 05:20:30.776] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=49, z=214}
+[10Jan2025 05:20:30.776] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=49, z=214}
+[10Jan2025 05:20:30.776] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=50, z=214}
+[10Jan2025 05:20:30.777] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=50, z=214}
+[10Jan2025 05:20:30.777] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=50, z=214}
+[10Jan2025 05:20:35.217] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[10Jan2025 05:21:21.765] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:ancient_city took 213 ms
+[10Jan2025 05:21:34.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to -1151.500000, 65.000000, 3472.500000]
+[10Jan2025 05:21:34.331] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8209ms or 164 ticks behind
+[10Jan2025 05:22:43.051] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=216, y=47, z=211}
+[10Jan2025 05:24:01.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Spectator Mode]
+[10Jan2025 05:24:14.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[10Jan2025 05:24:24.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has completed the challenge [It Spreads]
+[10Jan2025 05:24:51.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[10Jan2025 05:25:17.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[10Jan2025 05:25:36.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[10Jan2025 05:25:44.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[10Jan2025 05:25:48.528] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr lost connection: Disconnected
+[10Jan2025 05:25:48.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr left the game

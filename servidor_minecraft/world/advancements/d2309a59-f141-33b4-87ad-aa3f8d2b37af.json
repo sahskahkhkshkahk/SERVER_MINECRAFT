@@ -27,6 +27,7 @@
       "minecraft:sparse_jungle": "2025-01-09 17:58:43 +0000",
       "minecraft:river": "2025-01-09 02:15:57 +0000",
       "minecraft:lukewarm_ocean": "2025-01-09 14:00:56 +0000",
+      "minecraft:dripstone_caves": "2025-01-10 05:21:35 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-09 02:15:24 +0000",
       "minecraft:deep_dark": "2025-01-09 18:10:42 +0000",
       "minecraft:grove": "2025-01-10 01:44:30 +0000",
@@ -46,6 +47,7 @@
       "minecraft:river": "2025-01-09 02:15:57 +0000",
       "minecraft:lukewarm_ocean": "2025-01-09 14:00:56 +0000",
       "minecraft:stony_shore": "2025-01-09 13:58:02 +0000",
+      "minecraft:dripstone_caves": "2025-01-10 05:21:35 +0000",
       "minecraft:deep_dark": "2025-01-09 18:10:42 +0000",
       "minecraft:ocean": "2025-01-09 13:55:37 +0000",
       "minecraft:jungle": "2025-01-09 18:00:50 +0000",
@@ -226,6 +228,7 @@
       "minecraft:piglin": "2025-01-10 04:49:36 +0000",
       "minecraft:breeze": "2025-01-09 14:04:09 +0000",
       "minecraft:enderman": "2025-01-10 04:17:13 +0000",
+      "minecraft:endermite": "2025-01-10 05:16:07 +0000",
       "minecraft:spider": "2025-01-09 02:41:43 +0000",
       "minecraft:piglin_brute": "2025-01-10 04:48:58 +0000",
       "minecraft:zombie": "2025-01-09 02:13:17 +0000",
@@ -243,6 +246,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "mutton": "2025-01-09 02:15:38 +0000",
+      "spider_eye": "2025-01-10 05:15:20 +0000",
       "rotten_flesh": "2025-01-09 02:16:30 +0000",
       "enchanted_golden_apple": "2025-01-10 01:46:14 +0000",
       "porkchop": "2025-01-09 02:13:33 +0000",
@@ -1675,6 +1679,12 @@
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-01-10 04:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-01-10 05:24:24 +0000"
     },
     "done": true
   },
