@@ -1015,3 +1015,45 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [11Jan2025 05:36:44.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
 [11Jan2025 05:36:50.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
 [11Jan2025 05:38:21.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Enderman
+[11Jan2025 05:38:39.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:39:02.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Free the End]
+[11Jan2025 05:39:03.313] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 05:39:03.318] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 05:39:15.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> lo lograste
+[11Jan2025 05:39:35.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> ven}
+[11Jan2025 05:40:42.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Remote Getaway]
+[11Jan2025 05:40:52.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:41:00.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter hit the ground too hard while trying to escape Enderman
+[11Jan2025 05:41:11.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> nooo
+[11Jan2025 05:41:16.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:41:54.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> ven
+[11Jan2025 05:42:50.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter hit the ground too hard while trying to escape Enderman
+[11Jan2025 05:43:00.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[11Jan2025 05:43:09.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> me ire a domir
+[11Jan2025 05:43:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> nooo
+[11Jan2025 05:43:28.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> pronto
+[11Jan2025 05:43:49.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> es que no avisas ps bb
+[11Jan2025 05:44:03.350] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 05:44:03.363] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 05:44:24.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [In Transit]
+[11Jan2025 05:44:39.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[11Jan2025 05:44:54.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:44:54.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [In Transit]
+[11Jan2025 05:45:18.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[11Jan2025 05:45:38.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[11Jan2025 05:45:40.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> que es eso
+[11Jan2025 05:45:45.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:45:46.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has completed the challenge [Great View From Up Here]
+[11Jan2025 05:46:50.464] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 90 ms
+[11Jan2025 05:46:55.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to 432.500000, 57.000000, 2016.500000]
+[11Jan2025 05:47:03.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[11Jan2025 05:47:16.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [The City at the End of the Game]
+[11Jan2025 05:47:23.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[11Jan2025 05:47:29.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to Domisainter]
+[11Jan2025 05:47:36.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to 432.500000, 56.000000, 2016.500000]
+[11Jan2025 05:47:41.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
+[11Jan2025 05:47:45.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Enderman
+[11Jan2025 05:48:00.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[11Jan2025 05:48:07.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:48:08.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [The City at the End of the Game]
+[11Jan2025 05:48:18.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has reached the goal [Sky's the Limit]
