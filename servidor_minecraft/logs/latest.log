@@ -190,3 +190,6 @@
 [11Jan2025 16:12:51.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Spectator Mode]
 [11Jan2025 16:13:44.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
 [11Jan2025 16:14:54.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Spectator Mode]
+[11Jan2025 16:16:38.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[11Jan2025 16:17:49.857] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr lost connection: Disconnected
+[11Jan2025 16:17:49.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr left the game
