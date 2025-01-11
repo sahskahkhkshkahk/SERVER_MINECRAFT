@@ -83,3 +83,26 @@
 [11Jan2025 04:53:25.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
 [11Jan2025 04:54:20.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
 [11Jan2025 04:55:18.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[11Jan2025 05:00:09.214] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@1183078f[id=4bfcb418-e851-3354-a142-5a849c8871e6,name=Domisainter,properties={}] lost connection: Disconnected
+[11Jan2025 05:00:12.063] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 5.525591054096928,0.12129684053920187,8.634999116006838
+[11Jan2025 05:00:25.803] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Domisainter[/127.214.190.192:44595] logged in with entity id 4129 at (25.022742588265285, 38.166109260938214, 984.9203971072056)
+[11Jan2025 05:00:25.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter joined the game
+[11Jan2025 05:00:38.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:00:53.537] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
+[11Jan2025 05:06:09.593] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=216, y=47, z=211}
+[11Jan2025 05:06:21.911] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2206ms or 44 ticks behind
+[11Jan2025 05:07:02.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:08:32.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> me voy a morir
+[11Jan2025 05:08:43.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:09:31.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:09:31.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [Safe Haven]
+[11Jan2025 05:10:12.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> vamonos
+[11Jan2025 05:11:14.809] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=217, y=48, z=159}
+[11Jan2025 05:11:23.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> ciidado atras
+[11Jan2025 05:12:00.890] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2935ms or 58 ticks behind
+[11Jan2025 05:13:35.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Spider
+[11Jan2025 05:13:55.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:14:05.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 05:16:44.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to Domisainter]
+[11Jan2025 05:17:13.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> se trabo jajaja
+[11Jan2025 05:17:51.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> esta pegadisimo

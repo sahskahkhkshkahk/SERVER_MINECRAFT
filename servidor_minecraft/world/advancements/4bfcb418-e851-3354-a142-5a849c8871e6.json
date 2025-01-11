@@ -8,6 +8,8 @@
   "minecraft:adventure/distant_lands": {
     "criteria": {
       "minecraft:flower_forest": "2025-01-10 03:18:36 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-11 05:00:39 +0000",
+      "clifftree:sparse_forest": "2025-01-11 05:07:02 +0000",
       "minecraft:forest": "2025-01-10 03:16:29 +0000",
       "minecraft:cherry_grove": "2025-01-10 03:31:40 +0000",
       "minecraft:river": "2025-01-10 03:30:46 +0000",
@@ -18,9 +20,11 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:flower_forest": "2025-01-10 03:18:36 +0000",
+      "clifftree:sparse_forest": "2025-01-11 05:07:02 +0000",
       "minecraft:forest": "2025-01-10 03:16:29 +0000",
       "minecraft:cherry_grove": "2025-01-10 03:31:40 +0000",
       "minecraft:river": "2025-01-10 03:30:46 +0000",
+      "minecraft:birch_forest": "2025-01-11 05:00:39 +0000",
       "minecraft:plains": "2025-01-10 03:16:52 +0000"
     },
     "done": false
@@ -697,24 +701,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
-    "criteria": {
-      "has_leather": "2025-01-11 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2025-01-11 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2025-01-11 04:35:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2025-01-11 04:33:06 +0000"
@@ -739,21 +725,9 @@
     },
     "done": true
   },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2025-01-11 04:39:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2025-01-11 04:33:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2025-01-11 04:35:14 +0000"
     },
     "done": true
   },
@@ -769,21 +743,9 @@
     },
     "done": true
   },
-  "nova_structures:nether/find_piglins": {
-    "criteria": {
-      "nova_structures:piglin_camp": "2025-01-11 04:38:59 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2025-01-11 04:33:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2025-01-11 04:35:14 +0000"
     },
     "done": true
   },
@@ -799,37 +761,25 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2025-01-11 04:35:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2025-01-11 04:33:06 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2025-01-11 04:39:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2025-01-11 04:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2025-01-11 04:35:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-11 04:33:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-11 04:33:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-01-11 04:33:06 +0000"
     },
@@ -841,21 +791,81 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2025-01-11 04:35:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-01-11 04:33:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+  "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
-      "has_gold_ingot": "2025-01-11 04:33:06 +0000"
+      "has_leather": "2025-01-11 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-01-11 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-01-11 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-01-11 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-01-11 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-01-11 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-01-11 04:35:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-01-11 04:35:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-01-11 04:35:35 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_camp": "2025-01-11 04:38:59 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-01-11 04:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-01-11 04:39:34 +0000"
     },
     "done": true
   },
@@ -865,9 +875,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_leggings": {
+  "nova_structures:root": {
     "criteria": {
-      "has_gold_ingot": "2025-01-11 04:33:06 +0000"
+      "nova_structures:adventure/find_tavern": "2025-01-11 05:09:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-01-11 05:13:25 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_oak": "2025-01-11 05:09:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-01-11 05:13:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-01-11 05:06:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-01-11 05:13:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-01-11 05:13:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-01-11 05:13:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-01-11 05:13:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-01-11 05:13:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-01-11 05:06:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-01-11 05:13:25 +0000"
     },
     "done": true
   },
