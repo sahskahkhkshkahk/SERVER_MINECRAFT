@@ -67,3 +67,9 @@
 [11Jan2025 03:59:17.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
 [11Jan2025 03:59:55.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Applied enchantment Mending to Samuel_bbr's item]
 [11Jan2025 04:01:46.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [What a Deal!]
+[11Jan2025 04:03:40.730] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
+[11Jan2025 04:11:04.268] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=216, y=47, z=211}
+[11Jan2025 04:12:42.625] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Domisainter[/127.214.190.192:43119] logged in with entity id 5404 at (-1055.653591464319, 63.0, 4595.529439954299)
+[11Jan2025 04:12:42.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter joined the game
+[11Jan2025 04:13:22.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to Domisainter]
+[11Jan2025 04:13:27.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> hola vv
