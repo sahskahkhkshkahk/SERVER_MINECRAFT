@@ -1117,6 +1117,12 @@
     },
     "done": true
   },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2025-01-11 05:45:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-11 05:21:15 +0000"
@@ -1279,9 +1285,21 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-01-11 05:48:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2025-01-11 05:20:06 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:end/find_end_ship": {
+    "criteria": {
+      "end_ship": "2025-01-11 05:44:54 +0000"
     },
     "done": true
   },
@@ -1342,6 +1360,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-11 05:20:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-01-11 05:49:42 +0000"
     },
     "done": true
   },
