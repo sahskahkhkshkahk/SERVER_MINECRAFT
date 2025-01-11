@@ -920,3 +920,15 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [11Jan2025 04:19:51.153] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [11Jan2025 04:19:51.175] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [11Jan2025 04:21:26.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> dame unos minutos pls
+[11Jan2025 04:24:51.171] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 04:24:51.185] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 04:25:48.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has completed the challenge [Hot Tourist Destinations]
+[11Jan2025 04:26:05.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to Samuel_bbr]
+[11Jan2025 04:26:22.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 04:26:23.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has completed the challenge [Hot Tourist Destinations]
+[11Jan2025 04:29:51.103] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 04:29:51.112] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 04:29:53.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 04:33:08.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
+[11Jan2025 04:33:31.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> como hace eso
+[11Jan2025 04:33:44.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> dandole click derecho

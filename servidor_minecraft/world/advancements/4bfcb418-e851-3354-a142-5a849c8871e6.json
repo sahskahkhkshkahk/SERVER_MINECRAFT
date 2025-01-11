@@ -373,9 +373,10 @@
       "minecraft:crimson_forest": "2025-01-10 04:29:36 +0000",
       "minecraft:nether_wastes": "2025-01-10 04:18:27 +0000",
       "minecraft:soul_sand_valley": "2025-01-10 04:22:02 +0000",
-      "minecraft:warped_forest": "2025-01-10 04:09:59 +0000"
+      "minecraft:warped_forest": "2025-01-10 04:09:59 +0000",
+      "minecraft:basalt_deltas": "2025-01-11 04:26:23 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
