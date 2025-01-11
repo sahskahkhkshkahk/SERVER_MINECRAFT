@@ -1,218 +1,192 @@
-[11Jan2025 04:47:46.207] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[11Jan2025 04:47:46.213] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04
-[11Jan2025 04:47:46.217] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[11Jan2025 04:47:46.659] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[11Jan2025 04:47:46.903] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[11Jan2025 04:47:47.265] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/SERVER_MINECRAFT/servidor_minecraft/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
-[11Jan2025 04:47:47.943] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[11Jan2025 04:47:50.067] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[11Jan2025 04:47:50.099] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[11Jan2025 04:47:50.182] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[11Jan2025 04:47:50.184] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[11Jan2025 04:47:51.483] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[11Jan2025 04:47:51.760] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[11Jan2025 04:48:06.826] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[11Jan2025 04:48:06.827] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[11Jan2025 04:48:06.904] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[11Jan2025 04:48:06.981] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
-[11Jan2025 04:48:08.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[11Jan2025 04:48:10.371] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.4.4 Target: null
-[11Jan2025 04:48:10.371] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[11Jan2025 04:48:10.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.33 Target: 51.0.33
-[11Jan2025 04:48:10.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Starting version check at https://api.modrinth.com/updates/59ypHk8x/forge_updates.json
-[11Jan2025 04:48:10.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Found status: OUTDATED Current: 1.7 Target: 2.0.1+mod
-[11Jan2025 04:48:10.694] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
-[11Jan2025 04:48:10.961] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.6 Target: 2.1.6
-[11Jan2025 04:48:10.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[11Jan2025 04:48:11.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21-6.0.0-beta.27 Target: 1.21-6.0.0-beta.27
-[11Jan2025 04:48:11.692] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: resource-pack-id missing, using default of 7f2fe692-0121-3f4f-8f74-abc7d8cbc069
-[11Jan2025 04:48:11.731] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11Jan2025 04:48:19.940] [Worker-Main-1/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
-[11Jan2025 04:48:21.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1339 recipes
-[11Jan2025 04:48:22.453] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[11Jan2025 04:48:22.454] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1490 advancements
-[11Jan2025 04:48:23.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[11Jan2025 04:48:23.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11Jan2025 04:48:23.773] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[11Jan2025 04:48:23.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[11Jan2025 04:48:24.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[11Jan2025 04:48:24.097] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[11Jan2025 04:48:24.218] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11Jan2025 04:48:24.219] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[11Jan2025 04:48:24.219] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11Jan2025 04:48:24.220] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[11Jan2025 04:48:24.342] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[11Jan2025 04:48:24.438] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[11Jan2025 04:48:36.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11Jan2025 04:48:48.575] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.580] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.583] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.584] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.586] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.587] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.587] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.588] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.589] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.592] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.593] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.593] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.594] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.595] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.596] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.596] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.603] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.607] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.608] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.617] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.617] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.839] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:48:48.933] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12130 ms
-[11Jan2025 04:48:48.934] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.671s)! For help, type "help"
-[11Jan2025 04:48:48.948] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[11Jan2025 04:48:48.952] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
-[11Jan2025 04:48:48.955] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeClientHooks@67e260ac for service interface journeymap.api.services.ClientPlatformService
-[11Jan2025 04:48:48.958] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeHooks@4f33d192 for service interface journeymap.api.services.CommonPlatformService
-[11Jan2025 04:48:58.334] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel_bbr[/127.225.245.222:52333] logged in with entity id 18 at (19.335834185816744, 33.875, 992.3794661821726)
-[11Jan2025 04:48:58.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr joined the game
-[11Jan2025 04:49:02.866] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4861ms or 97 ticks behind
-[11Jan2025 04:49:03.707] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Piglin['Piglin'/42, l='ServerLevel[world]', x=75.37, y=32.88, z=998.70]
-[11Jan2025 04:53:09.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 04:53:25.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 04:54:20.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 04:55:18.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:00:09.214] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@1183078f[id=4bfcb418-e851-3354-a142-5a849c8871e6,name=Domisainter,properties={}] lost connection: Disconnected
-[11Jan2025 05:00:12.063] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 5.525591054096928,0.12129684053920187,8.634999116006838
-[11Jan2025 05:00:25.803] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Domisainter[/127.214.190.192:44595] logged in with entity id 4129 at (25.022742588265285, 38.166109260938214, 984.9203971072056)
-[11Jan2025 05:00:25.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter joined the game
-[11Jan2025 05:00:38.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:00:53.537] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
-[11Jan2025 05:06:09.593] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=216, y=47, z=211}
-[11Jan2025 05:06:21.911] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2206ms or 44 ticks behind
-[11Jan2025 05:07:02.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:08:32.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> me voy a morir
-[11Jan2025 05:08:43.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:09:31.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:09:31.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [Safe Haven]
-[11Jan2025 05:10:12.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> vamonos
-[11Jan2025 05:11:14.809] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=217, y=48, z=159}
-[11Jan2025 05:11:23.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> ciidado atras
-[11Jan2025 05:12:00.890] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2935ms or 58 ticks behind
-[11Jan2025 05:13:35.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Spider
-[11Jan2025 05:13:55.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:14:05.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:16:44.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to Domisainter]
-[11Jan2025 05:17:13.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> se trabo jajaja
-[11Jan2025 05:17:51.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> esta pegadisimo
-[11Jan2025 05:18:03.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> hay lag jajaa
-[11Jan2025 05:18:32.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was blown up by Creeper
-[11Jan2025 05:18:52.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:19:20.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [Acquire Hardware]
-[11Jan2025 05:20:07.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> no te lances
-[11Jan2025 05:20:14.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> jajaajjaa
-[11Jan2025 05:20:37.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> y como bajo sn lansarme?
-[11Jan2025 05:21:00.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Eye Spy]
-[11Jan2025 05:21:06.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:21:07.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [Eye Spy]
-[11Jan2025 05:21:14.959] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/7241, l='ServerLevel[world]', x=1089.55, y=72.00, z=4710.39] died, message: 'Cartographer was poked to death by a sweet berry bush'
-[11Jan2025 05:22:40.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> estoy atrapadaa
-[11Jan2025 05:22:47.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:24:24.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Spectator Mode]
-[11Jan2025 05:24:45.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:25:36.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [The End?]
-[11Jan2025 05:25:39.414] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
-[11Jan2025 05:25:39.415] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
-[11Jan2025 05:25:40.434] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4379ms or 87 ticks behind
-[11Jan2025 05:25:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [The End?]
-[11Jan2025 05:25:47.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Samuel_bbr
-[11Jan2025 05:25:58.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:26:10.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> esperam
-[11Jan2025 05:26:18.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:26:50.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Take Aim]
-[11Jan2025 05:27:20.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Applied enchantment Power V to Samuel_bbr's item]
-[11Jan2025 05:27:30.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:28:14.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:28:29.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:29:16.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Enderman
-[11Jan2025 05:29:42.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:30:21.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:30:24.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:30:43.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:30:54.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:31:46.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Samuel_bbr
-[11Jan2025 05:32:03.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:33:20.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> no le doy
-[11Jan2025 05:33:41.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> tu puedes bb
-[11Jan2025 05:34:22.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Enderman
-[11Jan2025 05:34:29.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:35:13.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Enderman
-[11Jan2025 05:35:25.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:35:32.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> soy un cero a la izquierda jajaja
-[11Jan2025 05:36:44.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:36:50.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:38:21.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Enderman
-[11Jan2025 05:38:39.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:39:02.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Free the End]
-[11Jan2025 05:39:15.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> lo lograste
-[11Jan2025 05:39:35.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> ven}
-[11Jan2025 05:40:42.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Remote Getaway]
-[11Jan2025 05:40:52.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:41:00.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter hit the ground too hard while trying to escape Enderman
-[11Jan2025 05:41:11.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> nooo
-[11Jan2025 05:41:16.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:41:54.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> ven
-[11Jan2025 05:42:50.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter hit the ground too hard while trying to escape Enderman
-[11Jan2025 05:43:00.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:43:09.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> me ire a domir
-[11Jan2025 05:43:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> nooo
-[11Jan2025 05:43:28.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> pronto
-[11Jan2025 05:43:49.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> es que no avisas ps bb
-[11Jan2025 05:44:24.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [In Transit]
-[11Jan2025 05:44:39.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:44:54.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:44:54.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [In Transit]
-[11Jan2025 05:45:18.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:45:38.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:45:40.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> que es eso
-[11Jan2025 05:45:45.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:45:46.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has completed the challenge [Great View From Up Here]
-[11Jan2025 05:46:50.464] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 90 ms
-[11Jan2025 05:46:55.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to 432.500000, 57.000000, 2016.500000]
-[11Jan2025 05:47:03.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:47:16.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [The City at the End of the Game]
-[11Jan2025 05:47:23.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:47:29.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to Domisainter]
-[11Jan2025 05:47:36.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Samuel_bbr to 432.500000, 56.000000, 2016.500000]
-[11Jan2025 05:47:41.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:47:45.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Enderman
-[11Jan2025 05:48:00.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:48:07.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:48:08.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has made the advancement [The City at the End of the Game]
-[11Jan2025 05:48:18.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has reached the goal [Sky's the Limit]
-[11Jan2025 05:49:20.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:49:38.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> pontelas
-[11Jan2025 05:49:42.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter has reached the goal [Sky's the Limit]
-[11Jan2025 05:50:03.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Creative Mode]
-[11Jan2025 05:50:30.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
-[11Jan2025 05:51:03.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Gave 1 [Elytra] to Samuel_bbr]
-[11Jan2025 05:51:25.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> mira como se usan
-[11Jan2025 05:51:40.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter was slain by Enderman
-[11Jan2025 05:51:48.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> por mirarte
-[11Jan2025 05:52:25.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> me voy adios sami
-[11Jan2025 05:52:36.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Teleported Domisainter to Samuel_bbr]
-[11Jan2025 05:52:55.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> a domir bb?
-[11Jan2025 05:53:09.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Domisainter> si es tarde ya
-[11Jan2025 05:53:23.457] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Domisainter lost connection: Disconnected
-[11Jan2025 05:53:23.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Domisainter left the game
-[11Jan2025 05:53:24.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel_bbr> perame
-[11Jan2025 05:54:09.611] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/19976, l='ServerLevel[world]', x=-2391.19, y=63.00, z=4574.09] died, message: 'Nitwit hit the ground too hard'
-[11Jan2025 05:54:20.451] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
-[11Jan2025 05:55:20.177] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 7.050000881727328,13.69787537885938,-9.65008299891133
-[11Jan2025 05:55:26.822] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2517ms or 50 ticks behind
-[11Jan2025 05:55:26.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 9.835060679028857,-2.3078351783210564,-15.329546264195415
-[11Jan2025 05:55:38.884] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
-[11Jan2025 05:55:39.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! 9.269632084578461,-10.86885858547899,-11.577822064516567
-[11Jan2025 05:56:01.261] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr lost connection: Disconnected
-[11Jan2025 05:56:01.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr left the game
+[11Jan2025 15:55:54.952] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[11Jan2025 15:55:54.954] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04
+[11Jan2025 15:55:54.955] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[11Jan2025 15:55:55.196] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[11Jan2025 15:55:55.375] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[11Jan2025 15:55:55.526] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/SERVER_MINECRAFT/servidor_minecraft/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[11Jan2025 15:55:55.914] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[11Jan2025 15:55:57.278] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11Jan2025 15:55:57.298] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[11Jan2025 15:55:57.367] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jan2025 15:55:57.372] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jan2025 15:55:58.133] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[11Jan2025 15:55:58.363] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER_MINECRAFT/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[11Jan2025 15:56:07.885] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[11Jan2025 15:56:07.886] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[11Jan2025 15:56:07.912] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[11Jan2025 15:56:07.978] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
+[11Jan2025 15:56:09.222] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[11Jan2025 15:56:10.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.4.4 Target: null
+[11Jan2025 15:56:10.318] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Jan2025 15:56:10.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.33 Target: 51.0.33
+[11Jan2025 15:56:10.530] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Starting version check at https://api.modrinth.com/updates/59ypHk8x/forge_updates.json
+[11Jan2025 15:56:10.734] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Found status: OUTDATED Current: 1.7 Target: 2.0.1+mod
+[11Jan2025 15:56:10.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[11Jan2025 15:56:10.810] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.6 Target: 2.1.6
+[11Jan2025 15:56:10.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[11Jan2025 15:56:11.161] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21-6.0.0-beta.27 Target: 1.21-6.0.0-beta.27
+[11Jan2025 15:56:11.777] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: resource-pack-id missing, using default of 7f2fe692-0121-3f4f-8f74-abc7d8cbc069
+[11Jan2025 15:56:11.799] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11Jan2025 15:56:15.123] [Worker-Main-1/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
+[11Jan2025 15:56:16.037] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1339 recipes
+[11Jan2025 15:56:16.410] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[11Jan2025 15:56:16.411] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1490 advancements
+[11Jan2025 15:56:17.312] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[11Jan2025 15:56:17.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Jan2025 15:56:17.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Jan2025 15:56:17.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Jan2025 15:56:17.448] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Jan2025 15:56:17.511] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Jan2025 15:56:17.569] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11Jan2025 15:56:17.570] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11Jan2025 15:56:17.570] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11Jan2025 15:56:17.570] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11Jan2025 15:56:17.601] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[11Jan2025 15:56:17.670] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11Jan2025 15:56:26.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Jan2025 15:56:34.562] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.564] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.564] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.564] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.564] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.565] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.565] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.565] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.568] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.570] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.571] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.572] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.572] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.573] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.573] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.574] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 15:56:34.767] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8419 ms
+[11Jan2025 15:56:34.768] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.179s)! For help, type "help"
+[11Jan2025 15:56:34.784] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Jan2025 15:56:34.789] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[11Jan2025 15:56:34.797] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeClientHooks@65a3eca8 for service interface journeymap.api.services.ClientPlatformService
+[11Jan2025 15:56:34.803] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeHooks@255c545b for service interface journeymap.api.services.CommonPlatformService
+[11Jan2025 15:57:34.229] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel_bbr[/127.225.245.222:47193] logged in with entity id 18 at (-1825.2473857986458, 96.0, 3572.1958125589153)
+[11Jan2025 15:57:34.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr joined the game
+[11Jan2025 15:57:36.511] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2463ms or 49 ticks behind
+[11Jan2025 15:58:58.128] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
+[11Jan2025 15:59:31.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! -1.449277493351019,-0.7531999805212024,10.010621172387346
+[11Jan2025 15:59:31.186] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2138ms or 42 ticks behind
+[11Jan2025 15:59:39.939] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! -17.420234795769375,-2.2064648412785886,2.7684386795881437
+[11Jan2025 16:00:03.458] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[11Jan2025 16:00:03.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel_bbr moved too quickly! -15.426943098554602,-1.7872162729682515,9.675854811066529
+[11Jan2025 16:00:10.723] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=131, y=115, z=437}
+[11Jan2025 16:00:11.402] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=136, y=115, z=451}
+[11Jan2025 16:00:11.486] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-68, y=85, z=691}
+[11Jan2025 16:00:11.487] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-66, y=85, z=696}
+[11Jan2025 16:00:11.488] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-66, y=90, z=696}
+[11Jan2025 16:00:11.539] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-68, y=85, z=680}
+[11Jan2025 16:00:11.540] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-66, y=90, z=680}
+[11Jan2025 16:00:11.540] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-68, y=95, z=679}
+[11Jan2025 16:00:11.541] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-66, y=94, z=684}
+[11Jan2025 16:00:11.586] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-68, y=85, z=659}
+[11Jan2025 16:00:11.587] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-66, y=95, z=669}
+[11Jan2025 16:00:11.587] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-68, y=95, z=665}
+[11Jan2025 16:00:11.588] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-72, y=90, z=673}
+[11Jan2025 16:00:13.029] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-68, y=90, z=657}
+[11Jan2025 16:00:13.031] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-68, y=89, z=658}
+[11Jan2025 16:00:15.471] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=117, y=105, z=437}
+[11Jan2025 16:00:15.476] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=114, y=115, z=437}
+[11Jan2025 16:00:15.559] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=121, y=105, z=451}
+[11Jan2025 16:00:15.560] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=119, y=115, z=451}
+[11Jan2025 16:00:16.684] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-56, y=90, z=675}
+[11Jan2025 16:00:16.892] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-56, y=90, z=673}
+[11Jan2025 16:00:21.618] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-9, y=51, z=669}
+[11Jan2025 16:00:21.619] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=1, y=60, z=669}
+[11Jan2025 16:00:21.619] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=1, y=61, z=669}
+[11Jan2025 16:00:21.672] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-3, y=51, z=667}
+[11Jan2025 16:00:21.674] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-4, y=52, z=667}
+[11Jan2025 16:00:21.675] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-4, y=50, z=667}
+[11Jan2025 16:00:21.675] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-5, y=51, z=667}
+[11Jan2025 16:00:21.684] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-12, y=55, z=667}
+[11Jan2025 16:00:21.685] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-5, y=55, z=667}
+[11Jan2025 16:00:21.685] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=1, y=51, z=667}
+[11Jan2025 16:00:25.081] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=110, z=589}
+[11Jan2025 16:00:25.085] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=109, z=590}
+[11Jan2025 16:00:25.087] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=109, z=589}
+[11Jan2025 16:00:25.089] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=115, z=589}
+[11Jan2025 16:00:25.090] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=114, z=588}
+[11Jan2025 16:00:25.091] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=115, z=587}
+[11Jan2025 16:00:25.094] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=109, z=600}
+[11Jan2025 16:00:25.096] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=113, z=594}
+[11Jan2025 16:00:25.167] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=79, z=553}
+[11Jan2025 16:00:25.167] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=80, z=554}
+[11Jan2025 16:00:25.168] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=84, z=554}
+[11Jan2025 16:00:25.168] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=80, z=560}
+[11Jan2025 16:00:25.186] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=80, z=569}
+[11Jan2025 16:00:25.187] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=80, z=571}
+[11Jan2025 16:00:25.188] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=84, z=568}
+[11Jan2025 16:00:25.189] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=85, z=567}
+[11Jan2025 16:00:25.189] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=85, z=572}
+[11Jan2025 16:00:25.189] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=84, z=568}
+[11Jan2025 16:00:25.190] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=80, z=576}
+[11Jan2025 16:00:25.191] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=80, z=578}
+[11Jan2025 16:00:25.192] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=85, z=576}
+[11Jan2025 16:00:25.239] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=50, z=608}
+[11Jan2025 16:00:25.239] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=51, z=609}
+[11Jan2025 16:00:25.240] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=56, z=609}
+[11Jan2025 16:00:25.240] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=50, z=599}
+[11Jan2025 16:00:25.240] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=55, z=600}
+[11Jan2025 16:00:25.241] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=56, z=605}
+[11Jan2025 16:00:25.429] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=52, z=589}
+[11Jan2025 16:00:25.432] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=51, z=590}
+[11Jan2025 16:00:25.433] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=51, z=589}
+[11Jan2025 16:00:25.433] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=57, z=589}
+[11Jan2025 16:00:25.434] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=56, z=588}
+[11Jan2025 16:00:25.437] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=57, z=587}
+[11Jan2025 16:00:25.438] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=55, z=593}
+[11Jan2025 16:00:25.803] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=51, z=690}
+[11Jan2025 16:00:25.805] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=55, z=689}
+[11Jan2025 16:00:25.837] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=3, y=50, z=669}
+[11Jan2025 16:00:25.841] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=3, y=60, z=669}
+[11Jan2025 16:00:25.842] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=2, y=61, z=669}
+[11Jan2025 16:00:25.843] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=2, y=60, z=669}
+[11Jan2025 16:00:25.844] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=50, z=672}
+[11Jan2025 16:00:25.844] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=50, z=672}
+[11Jan2025 16:00:25.845] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=51, z=673}
+[11Jan2025 16:00:25.845] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=50, z=674}
+[11Jan2025 16:00:25.846] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=60, z=672}
+[11Jan2025 16:00:25.846] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=60, z=678}
+[11Jan2025 16:00:25.847] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=60, z=680}
+[11Jan2025 16:00:25.878] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=55, z=653}
+[11Jan2025 16:00:25.879] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=50, z=663}
+[11Jan2025 16:00:25.879] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=2, y=50, z=667}
+[11Jan2025 16:00:25.879] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=2, y=55, z=667}
+[11Jan2025 16:00:25.881] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=55, z=660}
+[11Jan2025 16:00:25.886] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=11, y=60, z=667}
+[11Jan2025 16:00:25.887] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=8, y=60, z=657}
+[11Jan2025 16:00:25.890] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=60, z=664}
+[11Jan2025 16:00:25.896] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=60, z=658}
+[11Jan2025 16:00:25.898] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=17, y=51, z=667}
+[11Jan2025 16:00:25.979] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=50, z=652}
+[11Jan2025 16:00:25.980] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=6, y=51, z=651}
+[11Jan2025 16:00:25.990] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=81, z=589}
+[11Jan2025 16:00:25.991] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=80, z=590}
+[11Jan2025 16:00:25.992] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=80, z=589}
+[11Jan2025 16:00:25.992] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=86, z=589}
+[11Jan2025 16:00:25.993] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=85, z=588}
+[11Jan2025 16:00:25.993] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=86, z=587}
+[11Jan2025 16:00:26.039] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=79, z=608}
+[11Jan2025 16:00:26.040] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=80, z=609}
+[11Jan2025 16:00:26.040] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=85, z=609}
+[11Jan2025 16:00:26.041] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=80, z=600}
+[11Jan2025 16:00:26.041] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=84, z=594}
+[11Jan2025 16:00:26.042] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=85, z=601}
+[11Jan2025 16:00:26.042] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=85, z=606}
+[11Jan2025 16:00:26.121] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=108, z=608}
+[11Jan2025 16:00:26.121] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=109, z=609}
+[11Jan2025 16:00:26.122] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-34, y=114, z=609}
+[11Jan2025 16:00:26.122] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=114, z=601}
+[11Jan2025 16:00:26.122] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-32, y=114, z=606}
+[11Jan2025 16:00:29.741] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=18, y=50, z=667}
+[11Jan2025 16:00:35.049] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2101ms or 42 ticks behind
+[11Jan2025 16:00:46.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel_bbr has made the advancement [Mind Your Manors]
+[11Jan2025 16:12:51.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Spectator Mode]
+[11Jan2025 16:13:44.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Survival Mode]
+[11Jan2025 16:14:54.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samuel_bbr: Set own game mode to Spectator Mode]
